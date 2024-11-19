@@ -31,7 +31,7 @@
     echo "----------------------------------------------------";
     echo "<h2>คำสั่ง Switch Case</h2>" ;
     echo "<br>";
-    $pet = 'Cat';
+    $pet = 'Cat'; //ทดสอบเปลี่ยนเป็น Dog,Bird,etc.
     switch ($pet) {
         case 'Cat';
             echo "คุณชอบนอนเหมือนแมว<br>";
