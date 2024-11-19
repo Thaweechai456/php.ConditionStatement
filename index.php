@@ -29,6 +29,25 @@
     echo "ผลการเรียนของคุณ".$result;
     echo "<br>";
     echo "----------------------------------------------------";
+    echo "<h2>คำสั่ง Switch Case</h2>" ;
+    echo "<br>";
+    $pet = 'Cat';
+    switch ($pet) {
+        case 'Cat';
+            echo "คุณชอบนอนเหมือนแมว<br>";
+            break;
+        case 'Dog';
+            echo "คุณทำเหมือนสุนัข<br>";
+            break;
+        case 'Bird';
+            echo "คุณพูดมากเหมือนนก";
+            break;
+        default;
+            echo "คุณเป็นมนุษย์ Introvert<br>";
+            break;
+    }
+    echo "<br>";
+    echo "----------------------------------------------------";
     ?>
 </body>
 </html>
