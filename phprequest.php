@@ -14,11 +14,13 @@
     <?php
     if($_SERVER ['REQUEST_METHOD']=='POST'){
         $name = htmlspecialchars($_REQUEST[['fname']]);
+        $ma,e = htmlspecialchars ($_POST['fname']);
         if (empty($name)) {
             echo "ชื่อเป็นที่ว่าง";
         } else {
             echo 'ยินดีต้องรับทุกคน'.$name;
         }
     }
+    ?>
 </body>
 </html>
