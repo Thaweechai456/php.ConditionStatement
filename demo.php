@@ -7,6 +7,6 @@
 </head>
 <body>
     <h2>ทดสอบส่งค่าเป็น method GET (ผ่าน URL)</h2>
-    <a href="test_get.php?subject=PHP&web=www.google.com"></a>
+    <a href="test_get.php?subject=PHP&web=www.google.com">คลิ๊ก</a>
 </body>
 </html>
