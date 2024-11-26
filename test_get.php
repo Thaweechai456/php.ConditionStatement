@@ -6,12 +6,12 @@
     <title>ทดสอบส่งค่าโดยใช้ Method GET</title>
 </head>
 <body>
-    
+        <a href="demo_get.php?subject=PHP&web=www.google.com">กลับ</a>
         <h2>ทดสอบรับค่าจาก method GET (ผ่าน URL)</h2>
         <?php
         echo "ศึกษาเรื่อง:".$_GET['subject']. " ได้ที่ ". $_GET['web'];
 
-
+        
 
 
 
